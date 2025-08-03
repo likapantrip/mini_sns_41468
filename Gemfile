@@ -77,3 +77,8 @@ gem 'omniauth-google-oauth2'
 # Omniauth認証のCSRF脆弱性への対策
 gem "omniauth-rails_csrf_protection"
 gem 'omniauth', '~>2.1.1'
+
+# pgを追加
+group :production do
+  gem 'pg'
+end
